@@ -1,2 +1,2 @@
-# ML-projects
-Machine Learning Projects
+# ML concepts from scratch
+Implementations of Machine Learning concepts from scratch.
