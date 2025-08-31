@@ -15,6 +15,8 @@
 - [ ] Gradient Boosted Trees
 - [ ] Perceptron
 - [ ] Multilayer Perceptron (backprop in NumPy)
+- [ ] L1 and L2 Regularization (Ridge, Lasso)
+- [ ] Bias-Variance Tradeoffs
 
 ---
 
@@ -25,6 +27,10 @@
 - [ ] LSTM / GRU
 - [ ] Transformer Encoder (classification)
 - [ ] Tiny GPT (char-level LM)
+- [ ] Loss Functoins (e.g., MSE, Cross-Entropy, etc.)
+- [ ] Batch Normalization
+- [ ] Dropout
+- [ ] Weight Initialization (Xavier, He)
 
 ---
 
@@ -37,6 +43,8 @@
 - [ ] GAN (MNIST)
 - [ ] DCGAN
 - [ ] t-SNE visualization
+- [ ] DBSCAN (density-based clustering)
+- [ ] Agglomerative Clustering (hierarchical clustering)
 
 ---
 
@@ -48,6 +56,9 @@
 - [ ] DQN (CartPole)
 - [ ] Policy Gradient (REINFORCE)
 - [ ] Actor-Critic (lite A2C)
+- [ ] Markov Decision Processes (MDPs) - State, action, transition, reward
+- [ ] Exploration vs. Exploitation Tradeoff
+- [ ] Reward Shaping
 
 ---
 
