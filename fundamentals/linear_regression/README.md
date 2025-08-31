@@ -4,7 +4,7 @@
 
 ### 🎯 Goal
 
-To model the **linear relationship** between input features $X$ and a continuous target variable $y$, enabling predicion of $y$ from new inputs.
+To model the **linear relationship** between input features $X$ and a continuous target variable $y$, enabling prediction of $y$ from new inputs.
 
 ---
 
