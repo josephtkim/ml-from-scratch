@@ -1,8 +1,8 @@
 # Machine Learning From Scratch
 
-## Learning Plan & Progress
+## ✅ Learning Plan & Progress
 
-### **Month 1 – Supervised Learning & Foundations**
+### **Part 1 – Supervised Learning & Foundations**
 - [ ] Linear Regression (closed-form + gradient descent)
 - [ ] Logistic Regression (binary + multinomial)
 - [ ] k-Nearest Neighbors
@@ -16,7 +16,7 @@
 
 ---
 
-### **Month 2 – Deep Learning & Unsupervised**
+### **Part 2 – Deep Learning & Unsupervised**
 - [ ] CNN (LeNet-style)
 - [ ] Activation function experiments
 - [ ] RNN (char-level)
@@ -30,7 +30,7 @@
 
 ---
 
-### **Month 3 – Advanced Models & RL**
+### **Part 3 – Advanced Models & RL**
 - [ ] GAN (MNIST)
 - [ ] DCGAN
 - [ ] Attention (scaled dot-product)
