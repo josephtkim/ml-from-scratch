@@ -4,7 +4,7 @@
 
 ## ✅ Learning Plan & Progress
 
-### **Part 1 – Fundamentals (Supervised Learning & Foundations)** [`fundamentals/`](./fundamentals)
+### **Part 1 – Fundamentals (Supervised Learning & Foundations)**
 - [ ] Linear Regression (closed-form + gradient descent)
 - [ ] Logistic Regression (binary + multinomial)
 - [ ] k-Nearest Neighbors
@@ -18,7 +18,7 @@
 
 ---
 
-### **Part 2 – Deep Learning** [`deep_learning/`](./deep_learning)
+### **Part 2 – Deep Learning**
 - [ ] CNN (LeNet-style)
 - [ ] Activation function experiments
 - [ ] RNN (char-level)
@@ -28,7 +28,7 @@
 
 ---
 
-### **Part 3 – Unsupervised & Representation Learning** [`unsupervised/`](./unsupervised)
+### **Part 3 – Unsupervised & Representation Learning**
 - [ ] k-Means
 - [ ] PCA
 - [ ] Gaussian Mixture Models (EM)
@@ -40,7 +40,7 @@
 
 ---
 
-### **Part 4 – Reinforcement Learning** [`reinforcement_learning/`](./reinforcement_learning)
+### **Part 4 – Reinforcement Learning**
 - [ ] Multi-Armed Bandits (ε-greedy, UCB, Thompson)
 - [ ] Value Iteration & Policy Iteration
 - [ ] Q-Learning
