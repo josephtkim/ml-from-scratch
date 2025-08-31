@@ -11,3 +11,5 @@
 - [ ] Gradient Boosted Trees
 - [ ] Perceptron
 - [ ] Multilayer Perceptron (backprop in NumPy)
+- [ ] L1 and L2 Regularization (Ridge, Lasso)
+- [ ] Bias-Variance Tradeoffs
