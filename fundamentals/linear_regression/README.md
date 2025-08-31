@@ -32,7 +32,7 @@ Minimizing the MSE ensures the model learns coefficients that result in predicti
 
 ### 🧠 What's Optimized
 
-The **model parameters** $\theta$ (weights) are optimized by solving the **normal equations** or using **gradient descent**, aiming to minize the MSE loss.
+The **model parameters** $\theta$ (weights) are optimized by solving the **normal equations** or using **gradient descent**, aiming to minimize the MSE loss.
 
 ---
 
