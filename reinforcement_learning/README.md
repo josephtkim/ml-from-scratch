@@ -8,3 +8,6 @@
 - [ ] DQN (CartPole)
 - [ ] Policy Gradient (REINFORCE)
 - [ ] Actor-Critic (lite A2C)
+- [ ] Markov Decision Processes (MDPs) - State, action, transition, reward
+- [ ] Exploration vs. Exploitation Tradeoff
+- [ ] Reward Shaping
