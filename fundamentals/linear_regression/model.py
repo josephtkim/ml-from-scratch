@@ -14,8 +14,8 @@ class LinearRegression:
         Returns:
             predictions: shape (batch_size, 1)
         """
-        # TODO: Implement prediction: y = Xw + b
-        pass
+        y = X @ self.weights + self.bias
+        return y
 
     def compute_loss(self, y_pred: np.ndarray, y_true: np.ndarray) -> float:
         """
@@ -26,8 +26,9 @@ class LinearRegression:
         Returns:
             loss: scalar
         """
-        # TODO: Implement MSE loss
-        pass
+        N = len(y_pred)
+        mse = (1.0 / N) * np.sum((y_pred - y_true)**2)
+        return mse 
 
     def compute_gradients(self, X: np.ndarray, y_pred: np.ndarray, y_true: np.ndarray):
         """
@@ -40,8 +41,11 @@ class LinearRegression:
             grad_w: shape (input_dim, 1)
             grad_b: scalar
         """
-        # TODO: Derive gradients dL/dw and dL/db
-        pass
+        N = X.shape[0]
+        error = y_pred - y_true
+        grad_w = (2.0 / N) * X.T @ error
+        grad_b = (2.0 / N) * np.sum(error)
+        return grad_w, grad_b 
 
     def update_parameters(self, grad_w: np.ndarray, grad_b: float):
         """
@@ -50,5 +54,5 @@ class LinearRegression:
             grad_w: gradient w.r.t. weights
             grad_b: gradient w.r.t. bias
         """
-        # TODO: Update weights and bias using learning rate
-        pass
+        self.weights -= self.lr*grad_w 
+        self.bias -= self.lr*grad_b
