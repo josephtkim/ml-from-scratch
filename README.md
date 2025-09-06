@@ -6,7 +6,8 @@
 
 ### **Part 1 – Fundamentals (Supervised Learning & Foundations)**
 - [X] Linear Regression (closed-form + gradient descent)
-- [X] Logistic Regression (binary + multinomial)
+- [X] Logistic Regression (binary)
+- [ ] Multinomial (Softmax) Logistic Regression
 - [ ] k-Nearest Neighbors
 - [ ] Naive Bayes (text classification)
 - [ ] Decision Trees
@@ -71,12 +72,6 @@
 ---
 
 ## ✍️ Author
-**Joseph Taewoo Kim**  
-- B.S. Mathematics, Minor in Physics  
-- SWE @ Meta (ML Infrastructure)  
-- Aiming to bridge **mathematics, ML, and research**
-
-## Author
 **Joseph Taewoo Kim**  
 - B.S. Mathematics, Minor in Physics  
 - SWE @ Meta (ML Infrastructure)  
