@@ -5,7 +5,7 @@
 ## ✅ Learning Plan & Progress
 
 ### **Part 1 – Fundamentals (Supervised Learning & Foundations)**
-- [ ] Linear Regression (closed-form + gradient descent)
+- [X] Linear Regression (closed-form + gradient descent)
 - [ ] Logistic Regression (binary + multinomial)
 - [ ] k-Nearest Neighbors
 - [ ] Naive Bayes (text classification)
