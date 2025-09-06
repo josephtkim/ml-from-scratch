@@ -3,7 +3,7 @@
 ## ✅ Progress Checklist
 - [X] Linear Regression (closed-form + gradient descent)
 - [X] Logistic Regression (binary)
-- [ ] Multinomial (Softmax) Logistic Regression
+- [X] Multinomial (Softmax) Logistic Regression
 - [ ] k-Nearest Neighbors
 - [ ] Naive Bayes (text classification)
 - [ ] Decision Trees
