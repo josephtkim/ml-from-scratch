@@ -8,7 +8,7 @@
 - [X] Linear Regression (closed-form + gradient descent)
 - [X] Logistic Regression (binary)
 - [X] Multinomial (Softmax) Logistic Regression
-- [ ] k-Nearest Neighbors
+- [X] k-Nearest Neighbors
 - [ ] Naive Bayes (text classification)
 - [ ] Decision Trees
 - [ ] Random Forests
