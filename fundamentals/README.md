@@ -6,7 +6,7 @@
 - [X] Multinomial (Softmax) Logistic Regression
 - [X] k-Nearest Neighbors
 - [X] Naive Bayes (text classification)
-- [ ] Decision Trees
+- [X] Decision Trees
 - [ ] Random Forests
 - [ ] Support Vector Machines
 - [ ] Gradient Boosted Trees
