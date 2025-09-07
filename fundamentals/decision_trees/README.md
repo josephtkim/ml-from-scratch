@@ -13,14 +13,16 @@ To predict the class label of input data by learning a sequence of decision rule
 Most common loss functions used in classification:
 
 - **Gini Impurity**  
-  $$
-  \text{Gini}(D) = 1 - \sum_{c} p(c)^2
-  $$
+
+$$
+\text{Gini}(D) = 1 - \sum_{c} p(c)^2
+$$
 
 - **Entropy (Information Gain)**  
-  $$
-  H(D) = -\sum_{c} p(c) \log_2 p(c)
-  $$
+
+$$
+H(D) = -\sum_{c} p(c) \log_2 p(c)
+$$
 
 The goal is to **recursively split** the dataset at each node to **maximize information gain** (i.e., reduce impurity).
 
