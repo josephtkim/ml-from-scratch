@@ -5,7 +5,7 @@
 - [X] Logistic Regression (binary)
 - [X] Multinomial (Softmax) Logistic Regression
 - [X] k-Nearest Neighbors
-- [ ] Naive Bayes (text classification)
+- [X] Naive Bayes (text classification)
 - [ ] Decision Trees
 - [ ] Random Forests
 - [ ] Support Vector Machines
