@@ -46,8 +46,8 @@ $$
 
 Naive Bayes does **not** rely on iterative gradient-based training. Instead, it:
 
-- Estimates **class prior probabilities** \( P(y) \)
-- Estimates **word likelihoods** \( P(x_i \mid y) \)
+- Estimates **class prior probabilities** $P(y)$
+- Estimates **word likelihoods** $$P(x_i \mid y)$$
 
 These are computed using **frequency counts** from the training data, often with **Laplace smoothing** to avoid assigning zero probability to unseen words.
 
