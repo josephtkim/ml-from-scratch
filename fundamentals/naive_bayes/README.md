@@ -1,4 +1,4 @@
-# 🧠 Naive Bayes for Text Classification — Background
+# 📘 Naive Bayes for Text Classification — Background
 
 ---
 
