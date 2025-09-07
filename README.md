@@ -11,7 +11,7 @@
 - [X] k-Nearest Neighbors
 - [X] Naive Bayes (text classification)
 - [X] Decision Trees
-- [ ] Random Forests
+- [X] Random Forests
 - [ ] Support Vector Machines
 - [ ] Gradient Boosted Trees
 - [ ] Perceptron
