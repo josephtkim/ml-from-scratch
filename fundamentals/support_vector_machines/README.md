@@ -12,9 +12,9 @@ To find the optimal hyperplane that separates classes **with the largest possibl
 
 SVMs optimize a **hinge loss** combined with an **L2 regularization** term (in the soft-margin case):
 
-\[
+$$
 \min_{\mathbf{w}, b} \ \frac{1}{2} \|\mathbf{w}\|^2 + C \sum_{i=1}^{n} \max(0, 1 - y_i(\mathbf{w}^\top \mathbf{x}_i + b))
-\]
+$$
 
 - **Hard margin**: assumes perfect linear separability.
 - **Soft margin**: allows for margin violations, controlled by regularization parameter **C**.
