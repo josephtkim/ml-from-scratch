@@ -1,4 +1,4 @@
-# 📘 Logistic Regression: Overview
+# 📘 Multinomial Logistic Regression: Overview
 
 ---
 

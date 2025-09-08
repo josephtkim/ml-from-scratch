@@ -1,4 +1,4 @@
-# 📘 Decision Trees for Classification — Background
+# 📘 Random Forests — Background
 
 ---
 
