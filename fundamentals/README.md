@@ -10,7 +10,7 @@
 - [X] Random Forests
 - [X] Support Vector Machines
 - [X] Gradient Boosted Trees
-- [ ] Perceptron
+- [X] Perceptron
 - [ ] Multilayer Perceptron (backprop in NumPy)
 - [ ] L1 and L2 Regularization (Ridge, Lasso)
 - [ ] Bias-Variance Tradeoffs
