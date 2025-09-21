@@ -1,7 +1,7 @@
 # 🔍 Unsupervised & Representation Learning
 
 ## ✅ Progress Checklist
-- [ ] k-Means
+- [X] k-Means
 - [ ] PCA
 - [ ] Gaussian Mixture Models (EM)
 - [ ] Autoencoder

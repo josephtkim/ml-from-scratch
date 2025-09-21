@@ -33,7 +33,7 @@
 ---
 
 ### **Part 3 – Unsupervised & Representation Learning**
-- [ ] k-Means
+- [X] k-Means
 - [ ] PCA
 - [ ] Gaussian Mixture Models (EM)
 - [ ] Autoencoder
