@@ -17,18 +17,15 @@
 - [X] Perceptron
 - [ ] Multilayer Perceptron (backprop in NumPy)
 - [ ] L1 and L2 Regularization (Ridge, Lasso)
-- [ ] Bias-Variance Tradeoffs
 
 ---
 
 ### **Part 2 – Deep Learning**
 - [ ] CNN (LeNet-style)
-- [ ] Activation function experiments
 - [ ] RNN (char-level)
 - [ ] LSTM / GRU
 - [ ] Transformer Encoder (classification)
 - [ ] Tiny GPT (char-level LM)
-- [ ] Loss Functions (e.g., MSE, Cross-Entropy, etc.)
 - [ ] Batch Normalization
 - [ ] Dropout
 - [ ] Weight Initialization (Xavier, He)
@@ -45,7 +42,6 @@
 - [ ] DCGAN
 - [ ] t-SNE visualization
 - [ ] DBSCAN (density-based clustering)
-- [ ] Agglomerative Clustering (hierarchical clustering)
 
 ---
 

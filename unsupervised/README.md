@@ -10,4 +10,3 @@
 - [ ] DCGAN
 - [ ] t-SNE visualization
 - [ ] DBSCAN (density-based clustering)
-- [ ] Agglomerative Clustering (hierarchical clustering)
