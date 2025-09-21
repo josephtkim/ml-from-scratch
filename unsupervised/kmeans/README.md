@@ -18,7 +18,7 @@ $$
 $$
 
 - $x_i$: data point  
-- $c_i$: index of cluster assignment for \( x_i \)  
+- $c_i$: index of cluster assignment for $x_i$
 - $\mu_{c_i}$: centroid of assigned cluster  
 
 ---
