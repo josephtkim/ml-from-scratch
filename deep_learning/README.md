@@ -8,4 +8,4 @@
 - [ ] Tiny GPT (char-level LM)
 - [ ] Batch Normalization
 - [ ] Dropout
-- [ ] Weight Initialization (Xavier, He)
+- [X] Weight Initialization (Xavier, He)

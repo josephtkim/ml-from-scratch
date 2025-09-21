@@ -15,7 +15,7 @@
 - [X] Support Vector Machines
 - [X] Gradient Boosted Trees
 - [X] Perceptron
-- [ ] Multilayer Perceptron (backprop in NumPy)
+- [X] Multilayer Perceptron (backprop in NumPy)
 - [ ] L1 and L2 Regularization (Ridge, Lasso)
 
 ---
@@ -28,7 +28,7 @@
 - [ ] Tiny GPT (char-level LM)
 - [ ] Batch Normalization
 - [ ] Dropout
-- [ ] Weight Initialization (Xavier, He)
+- [X] Weight Initialization (Xavier, He)
 
 ---
 

@@ -11,5 +11,5 @@
 - [X] Support Vector Machines
 - [X] Gradient Boosted Trees
 - [X] Perceptron
-- [ ] Multilayer Perceptron (backprop in NumPy)
+- [X] Multilayer Perceptron (backprop in NumPy)
 - [ ] L1 and L2 Regularization (Ridge, Lasso)
