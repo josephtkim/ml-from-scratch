@@ -7,69 +7,78 @@
 To approximate complex **non-linear functions** by stacking fully connected layers with learnable weights and non-linear activation functions.
 
 Given:
-- Input $x \in \mathbb{R}^d$
-- Layer sizes: $[n_0, n_1, \dots, n_L]$ where $n_0 = d$ (input dim), $n_L$ = output dim
+- Input `x ∈ ℝᵈ`
+- Layer sizes: `[n₀, n₁, ..., n_L]` where `n₀ = d` (input dim), `n_L` = output dim
 
-For each layer $\ell = 1, \dots, L$:
+For each layer `ℓ = 1, ..., L`:
 1. **Linear transformation**:
-   $$
-   z^{[\ell]} = W^{[\ell]} a^{[\ell - 1]} + b^{[\ell]}
-   $$
+
+   ```
+   z[ℓ] = W[ℓ] · a[ℓ−1] + b[ℓ]
+   ```
+
 2. **Apply non-linearity**:
-   $$
-   a^{[\ell]} = \sigma(z^{[\ell]})
-   $$
+
+   ```
+   a[ℓ] = σ(z[ℓ])
+   ```
 
 Where:
-- $a^{[0]} = x$ (input)
-- $W^{[\ell]} \in \mathbb{R}^{n_\ell \times n_{\ell-1}}$ (weights)
-- $b^{[\ell]} \in \mathbb{R}^{n_\ell}$ (biases)
-- $\sigma$: activation function (e.g. ReLU, softmax)
+- `a[0] = x` (the input)
+- `W[ℓ] ∈ ℝⁿˡ × ⁿˡ⁻¹` (weights)
+- `b[ℓ] ∈ ℝⁿˡ` (biases)
+- `σ`: activation function (e.g. ReLU or softmax)
 
-The final output $\hat{y} = a^{[L]}$ is the prediction.
+The final output `ŷ = a[L]` is the prediction.
 
 ---
 
 ### 📉 Loss / Objective
 
-For **classification** (e.g. with softmax output), use **cross-entropy loss**:
-$$
-\mathcal{L} = -\sum_{i=1}^{C} y_i \log(\hat{y}_i)
-$$
+For **classification** (e.g. softmax output), use **cross-entropy loss**:
+
+```
+L = −∑ yᵢ log(ŷᵢ)
+```
 
 For **regression**, use **mean squared error (MSE)**:
-$$
-\mathcal{L} = \frac{1}{N} \sum_{i=1}^{N} (y_i - \hat{y}_i)^2
-$$
+
+```
+L = (1/N) ∑ (yᵢ − ŷᵢ)²
+```
 
 ---
 
 ### 🧠 What's Optimized
 
 The model learns:
-- Weights $W^{[\ell]}$ and biases $b^{[\ell]}$ for all layers $\ell$
-- Optimization is done by minimizing the loss $\mathcal{L}$ via gradient descent
+- Weights `W[ℓ]` and biases `b[ℓ]` for all layers
+- Optimization is done by minimizing the loss `L` using **gradient descent**
 
 Using **backpropagation**, gradients are computed recursively:
-- For output layer:
-  $$
-  \delta^{[L]} = \nabla_{a^{[L]}} \mathcal{L} \odot \sigma'(z^{[L]})
-  $$
-- For hidden layers:
-  $$
-  \delta^{[\ell]} = \left( W^{[\ell + 1]^\top} \delta^{[\ell + 1]} \right) \odot \sigma'(z^{[\ell]})
-  $$
 
-Parameter updates:
-$$
-W^{[\ell]} \leftarrow W^{[\ell]} - \eta \frac{\partial \mathcal{L}}{\partial W^{[\ell]}}, \quad 
-b^{[\ell]} \leftarrow b^{[\ell]} - \eta \frac{\partial \mathcal{L}}{\partial b^{[\ell]}}
-$$
+- For the **output layer**:
+
+  ```
+  δ[L] = ∇ₐ L ⊙ σ′(z[L])
+  ```
+
+- For **hidden layers**:
+
+  ```
+  δ[ℓ] = (W[ℓ+1]ᵀ · δ[ℓ+1]) ⊙ σ′(z[ℓ])
+  ```
+
+Parameter updates (for all layers `ℓ`):
+
+```
+W[ℓ] ← W[ℓ] − η · ∂L/∂W[ℓ]
+b[ℓ] ← b[ℓ] − η · ∂L/∂b[ℓ]
+```
 
 Where:
-- $\eta$ is the learning rate
-- $\delta^{[\ell]}$ is the error signal at layer $\ell$
-- $\odot$ is element-wise (Hadamard) product
+- `η` is the learning rate
+- `δ[ℓ]` is the error signal at layer `ℓ`
+- `⊙` is element-wise (Hadamard) product
 
 ---
-
