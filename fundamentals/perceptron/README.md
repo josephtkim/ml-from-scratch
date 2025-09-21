@@ -7,9 +7,24 @@
 To learn a **linear decision boundary** that separates data into two classes (typically binary classification, e.g., 0 or 1).
 
 Given:
-- \( X \in \mathbb{R}^{n \times d} \): input features  
-- \( w \in \mathbb{R}^d \): weights  
-- \( b \in \mathbb{R} \): bias  
+
+**Input features:**
+
+$$
+X \in \mathbb{R}^{n \times d}
+$$
+
+**Weights:**
+
+$$
+w \in \mathbb{R}^d
+$$
+
+**Bias:**
+
+$$
+b \in \mathbb{R}
+$$
 
 The model computes a **linear combination**:
 
@@ -32,7 +47,13 @@ $$
 
 The **Perceptron loss** only penalizes misclassified samples.
 
-For each sample \( (x_i, y_i) \), where \( y_i \in \{-1, +1\} \), the loss is:
+For each sample:
+
+$$
+(x_i, y_i), \quad \text{where } y_i \in \{-1, +1\}
+$$
+
+the loss is:
 
 $$
 \mathcal{L} = \sum_{i=1}^{n} \max(0, -y_i (w^\top x_i + b))
@@ -45,8 +66,7 @@ $$
 
 ### 🧠 What's Optimized
 
-- The **weights** \( w \) and **bias** \( b \)  
-- Updated using the **Perceptron update rule**:
+The **weights** and **bias** are updated using the **Perceptron update rule**:
 
 If a sample is **misclassified**, update:
 
@@ -58,8 +78,14 @@ $$
 b \leftarrow b + \alpha \cdot y_i
 $$
 
-- \( \alpha \) is the learning rate  
-- This pushes the decision boundary **toward correctly classifying** the sample
+Where:
+
+$$
+\alpha \in \mathbb{R}
+$$
+
+is the **learning rate**.
+
+This pushes the decision boundary **toward correctly classifying** the sample.
 
 ---
-
