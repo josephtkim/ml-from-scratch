@@ -2,7 +2,7 @@
 
 ## ✅ Progress Checklist
 - [X] k-Means
-- [ ] PCA
+- [X] PCA
 - [ ] Gaussian Mixture Models (EM)
 - [X] Autoencoder
 - [ ] t-SNE visualization
