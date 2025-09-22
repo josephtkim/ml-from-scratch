@@ -16,7 +16,7 @@
 - [X] Gradient Boosted Trees
 - [X] Perceptron
 - [X] Multilayer Perceptron (backprop in NumPy)
-- [ ] L1 and L2 Regularization (Ridge, Lasso)
+- [X] L1 and L2 Regularization (Ridge, Lasso)
 
 ---
 
