@@ -5,8 +5,4 @@
 - [ ] PCA
 - [ ] Gaussian Mixture Models (EM)
 - [X] Autoencoder
-- [ ] Variational Autoencoder
-- [ ] GAN (MNIST)
-- [ ] DCGAN
 - [ ] t-SNE visualization
-- [ ] DBSCAN (density-based clustering)

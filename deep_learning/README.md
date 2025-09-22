@@ -1,7 +1,6 @@
 # 🤖 Deep Learning
 
 ## ✅ Progress Checklist
-- [ ] CNN (LeNet-style)
 - [ ] RNN (char-level)
 - [ ] LSTM / GRU
 - [ ] Transformer Encoder (classification)
