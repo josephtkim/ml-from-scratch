@@ -5,4 +5,4 @@
 - [X] PCA
 - [X] Gaussian Mixture Models (EM)
 - [X] Autoencoder
-- [ ] t-SNE visualization
+- [X] t-SNE visualization
