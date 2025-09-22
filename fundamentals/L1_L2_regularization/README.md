@@ -23,17 +23,6 @@ $$
 \mathcal{L}_{\text{MSE}} = \frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2
 $$
 
-### 🔹 Ridge Regression (L2)
-
-Adds an L2 penalty (squared weights):
-
-$$
-\mathcal{L}_{\text{ridge}} = \mathcal{L}_{\text{MSE}} + \lambda \sum_j w_j^2 = \frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2 + \lambda \|w\|_2^2
-$$
-
-- Encourages **smaller weights**.
-- No sparsity (weights shrink but rarely reach zero).
-
 ### 🔸 Lasso Regression (L1)
 
 Adds an L1 penalty (absolute weights):
@@ -44,6 +33,17 @@ $$
 
 - Encourages **sparsity** (some weights exactly zero).
 - Performs **feature selection**.
+
+### 🔹 Ridge Regression (L2)
+
+Adds an L2 penalty (squared weights):
+
+$$
+\mathcal{L}_{\text{ridge}} = \mathcal{L}_{\text{MSE}} + \lambda \sum_j w_j^2 = \frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2 + \lambda \|w\|_2^2
+$$
+
+- Encourages **smaller weights**.
+- No sparsity (weights shrink but rarely reach zero).
 
 ---
 
@@ -58,8 +58,8 @@ The choice of penalty affects:
 
 | Type   | Encourages         | Common Solver    |
 |--------|--------------------|------------------|
-| L2     | Small weights      | Gradient descent |
 | L1     | Sparse weights     | Subgradient / Coordinate descent |
+| L2     | Small weights      | Gradient descent |
 
 ---
 
