@@ -21,9 +21,9 @@ Where:
 
 - $$\pi_k$$ are the **mixing coefficients** (weights), subject to:
 
-  $$
-  \sum_{k=1}^{K} \pi_k = 1
-  $$
+$$
+\sum_{k=1}^{K} \pi_k = 1
+$$
 
 - $$\mu_k$$ is the **mean vector** of the \(k\)-th Gaussian
 - $$\Sigma_k$$ is the **covariance matrix** of the \(k\)-th Gaussian
@@ -42,23 +42,23 @@ Optimization is performed using the **Expectation–Maximization (EM)** algorith
 
 - **E-step**: Estimate **responsibilities** — the posterior probability that data point $$x_i$$ belongs to cluster $$k$$:
 
-  $$
-  \gamma_{ik} = \frac{ \pi_k \, \mathcal{N}(x_i \mid \mu_k, \Sigma_k) }{ \sum_{j=1}^{K} \pi_j \, \mathcal{N}(x_i \mid \mu_j, \Sigma_j) }
-  $$
+$$
+\gamma_{ik} = \frac{ \pi_k \, \mathcal{N}(x_i \mid \mu_k, \Sigma_k) }{ \sum_{j=1}^{K} \pi_j \, \mathcal{N}(x_i \mid \mu_j, \Sigma_j) }
+$$
 
 - **M-step**: Update the parameters to maximize the expected log-likelihood given the current responsibilities:
 
-  $$
-  \pi_k = \frac{1}{n} \sum_{i=1}^{n} \gamma_{ik}
-  $$
+$$
+\pi_k = \frac{1}{n} \sum_{i=1}^{n} \gamma_{ik}
+$$
 
-  $$
-  \mu_k = \frac{ \sum_{i=1}^{n} \gamma_{ik} x_i }{ \sum_{i=1}^{n} \gamma_{ik} }
-  $$
+$$
+\mu_k = \frac{ \sum_{i=1}^{n} \gamma_{ik} x_i }{ \sum_{i=1}^{n} \gamma_{ik} }
+$$
 
-  $$
-  \Sigma_k = \frac{ \sum_{i=1}^{n} \gamma_{ik} (x_i - \mu_k)(x_i - \mu_k)^\top }{ \sum_{i=1}^{n} \gamma_{ik} }
-  $$
+$$
+\Sigma_k = \frac{ \sum_{i=1}^{n} \gamma_{ik} (x_i - \mu_k)(x_i - \mu_k)^\top }{ \sum_{i=1}^{n} \gamma_{ik} }
+$$
 
 This EM procedure repeats until the **log-likelihood converges**, typically measured by:
 
