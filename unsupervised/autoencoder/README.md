@@ -15,7 +15,7 @@ Common use cases:
 
 ### 📉 Loss / Objective
 
-Minimize **reconstruction loss** between input \( x \in \mathbb{R}^d \) and reconstruction \( \hat{x} \in \mathbb{R}^d \).  
+Minimize **reconstruction loss** between input $x \in \mathbb{R}^d$ and reconstruction $\hat{x} \in \mathbb{R}^d$.  
 
 Typical loss (mean squared error):
 
@@ -32,9 +32,9 @@ $$
 
 An autoencoder jointly learns:  
 
-- **Encoder** \( f_{\theta}(x) \): maps input \( x \) to latent representation \( z \).  
-- **Decoder** \( g_{\phi}(z) \): reconstructs \( x \) from latent \( z \).  
+- **Encoder** $f_{\theta}(x)$: maps input $x$ to latent representation $z$.  
+- **Decoder** $g_{\phi}(z)$: reconstructs $x$ from latent $z$.  
 
-Parameters \( \theta, \phi \) are optimized via gradient descent to minimize reconstruction error.
+Parameters $\theta$, $\phi$ are optimized via gradient descent to minimize reconstruction error.
 
 ---
