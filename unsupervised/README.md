@@ -4,7 +4,7 @@
 - [X] k-Means
 - [ ] PCA
 - [ ] Gaussian Mixture Models (EM)
-- [ ] Autoencoder
+- [X] Autoencoder
 - [ ] Variational Autoencoder
 - [ ] GAN (MNIST)
 - [ ] DCGAN
