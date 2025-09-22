@@ -34,7 +34,7 @@
 ### **Part 3 – Unsupervised & Representation Learning**
 - [X] k-Means
 - [X] PCA
-- [ ] Gaussian Mixture Models (EM)
+- [X] Gaussian Mixture Models (EM)
 - [X] Autoencoder
 - [ ] t-SNE visualization
 
